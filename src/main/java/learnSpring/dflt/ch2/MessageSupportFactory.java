@@ -29,4 +29,16 @@ public class MessageSupportFactory {
     static {
     	instance = new MessageSupportFactory();
     }
+    
+    public static MessageSupportFactory getInstance() {
+    	return instance;
+    }
+    
+    public MessageRenderer getMessageRenderer() {
+    	return renderer;
+    }
+    
+    public MessageProvider getMessageProvider() {
+    	return provider;
+    }
 }

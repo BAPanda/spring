@@ -1,1 +1,6 @@
 learnSpring\dflt\App.class
+learnSpring\dflt\ch2\HelloWorldMessageProvider.class
+learnSpring\dflt\ch2\MessageProvider.class
+learnSpring\dflt\ch2\MessageSupportFactory.class
+learnSpring\dflt\ch2\StandartOutMessageRenderer.class
+learnSpring\dflt\ch2\MessageRenderer.class

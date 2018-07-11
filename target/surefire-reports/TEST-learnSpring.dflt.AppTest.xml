@@ -28,7 +28,8 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\akuzmina\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1458448469842105761.tmp"/>
+    <property name="dependency" value="copy-dependencies"/>
+    <property name="classworlds.conf" value="C:\Users\akuzmina\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf136235137704076129.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Soft/Java/bin/server;D:/Soft/Java/bin;D:/Soft/Java/lib/amd64;C:\Program Files\Teradata\Client\16.10\bin;C:\Program Files (x86)\Teradata\Client\16.10\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Oracle\Middleware\modules\org.apache.ant_1.7.1\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;D:\work\Git\cmd;D:\work\Git\mingw64\bin;D:\work\Git\usr\bin;D:\Soft\WinMerge;C:\Program Files\nodejs\;C:\Python36-32\Scripts\;C:\Python36-32\;D:\Soft\Microsoft VS Code\bin;C:\Users\akuzmina\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\akuzmina\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -45,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Ddependency=copy-dependencies -B clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="user.language.format" value="en"/>
