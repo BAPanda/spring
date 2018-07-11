@@ -11,7 +11,7 @@ import learnSpring.dflt.ch2.MessageRenderer;
  */
 public class App {
 	public static void main(String[] args) {                        
-		ApplicationContext ctx = new ClassPathXmlApplicationContext("app-context.xml");
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("META-INF\\spring\\app-context.xml");
 		
 		MessageRenderer mr = ctx.getBean("renderer", MessageRenderer.class);		
 		mr.render();
